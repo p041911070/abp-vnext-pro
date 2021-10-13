@@ -171,6 +171,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.ProjectName.Ide
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.ProjectName.QueryManagement.ElasticSearch", "modules\QueryManagement\src\CompanyName.ProjectName.QueryManagement.ElasticSearch\CompanyName.ProjectName.QueryManagement.ElasticSearch.csproj", "{C9861622-B0CB-4747-82CC-16664648A499}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.ProjectName.Blazor", "services\src\CompanyName.ProjectName.Blazor\CompanyName.ProjectName.Blazor.csproj", "{7BC89F4B-3BF2-4D1A-B542-BA2DEC771F17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -417,6 +419,10 @@ Global
 		{C9861622-B0CB-4747-82CC-16664648A499}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9861622-B0CB-4747-82CC-16664648A499}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9861622-B0CB-4747-82CC-16664648A499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC89F4B-3BF2-4D1A-B542-BA2DEC771F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC89F4B-3BF2-4D1A-B542-BA2DEC771F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC89F4B-3BF2-4D1A-B542-BA2DEC771F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC89F4B-3BF2-4D1A-B542-BA2DEC771F17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -499,6 +505,7 @@ Global
 		{FB20372D-6C96-4733-9AAC-12522F15CAA6} = {8C1B8C6C-C518-4290-B070-622CCA6004DA}
 		{FB1C29FF-5467-4CF0-995D-5B3F931AB135} = {8C1B8C6C-C518-4290-B070-622CCA6004DA}
 		{C9861622-B0CB-4747-82CC-16664648A499} = {9528B5B6-C087-4932-92EA-EE486E97AAB0}
+		{7BC89F4B-3BF2-4D1A-B542-BA2DEC771F17} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28315BFD-90E7-4E14-A2EA-F3D23AF4126F}
