@@ -155,7 +155,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.ProjectName.Dat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{5AACD0EE-F2B2-49F6-868F-8FE08D7243C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.ProjectName.DataDictionaryManagement.HttpApi.Host", "modules\DataDictionaryManagement\host\CompanyName.ProjectName.DataDictionaryManagement.HttpApi.Host\CompanyName.ProjectName.DataDictionaryManagement.HttpApi.Host.csproj", "{8D196E3D-6F95-4793-B948-79669AF09017}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.ProjectName.DataDictionaryManagement.HttpApi.Host", "modules\DataDictionaryManagement\host\CompanyName.ProjectName.DataDictionaryManagement.HttpApi.Host\CompanyName.ProjectName.DataDictionaryManagement.HttpApi.Host.csproj", "{8D196E3D-6F95-4793-B948-79669AF09017}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{8C1B8C6C-C518-4290-B070-622CCA6004DA}"
 EndProject
@@ -163,15 +163,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CAP", "CAP", "{2C09EED0-5AF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{11ED8435-B5AE-4BF3-9D4B-51FA1E4A18A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.ProjectName.CAP", "frameworks\CAP\src\CompanyName.ProjectName.CAP\CompanyName.ProjectName.CAP.csproj", "{F59B3C43-0B54-4A3A-AA28-1A50F59D2FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.ProjectName.CAP", "frameworks\CAP\src\CompanyName.ProjectName.CAP\CompanyName.ProjectName.CAP.csproj", "{F59B3C43-0B54-4A3A-AA28-1A50F59D2FC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.ProjectName.HttpApi.Host", "services\host\CompanyName.ProjectName.HttpApi.Host\CompanyName.ProjectName.HttpApi.Host.csproj", "{FB20372D-6C96-4733-9AAC-12522F15CAA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.ProjectName.HttpApi.Host", "services\host\CompanyName.ProjectName.HttpApi.Host\CompanyName.ProjectName.HttpApi.Host.csproj", "{FB20372D-6C96-4733-9AAC-12522F15CAA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.ProjectName.IdentityServer", "services\host\CompanyName.ProjectName.IdentityServer\CompanyName.ProjectName.IdentityServer.csproj", "{FB1C29FF-5467-4CF0-995D-5B3F931AB135}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.ProjectName.IdentityServer", "services\host\CompanyName.ProjectName.IdentityServer\CompanyName.ProjectName.IdentityServer.csproj", "{FB1C29FF-5467-4CF0-995D-5B3F931AB135}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.ProjectName.QueryManagement.ElasticSearch", "modules\QueryManagement\src\CompanyName.ProjectName.QueryManagement.ElasticSearch\CompanyName.ProjectName.QueryManagement.ElasticSearch.csproj", "{C9861622-B0CB-4747-82CC-16664648A499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.ProjectName.QueryManagement.ElasticSearch", "modules\QueryManagement\src\CompanyName.ProjectName.QueryManagement.ElasticSearch\CompanyName.ProjectName.QueryManagement.ElasticSearch.csproj", "{C9861622-B0CB-4747-82CC-16664648A499}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.ProjectName.Blazor", "services\src\CompanyName.ProjectName.Blazor\CompanyName.ProjectName.Blazor.csproj", "{7BC89F4B-3BF2-4D1A-B542-BA2DEC771F17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.ProjectName.Blazor", "services\src\CompanyName.ProjectName.Blazor\CompanyName.ProjectName.Blazor.csproj", "{7BC89F4B-3BF2-4D1A-B542-BA2DEC771F17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.ProjectName.Blazor.Layout.AntDesignTheme", "services\src\CompanyName.ProjectName.Blazor.Layout.AntDesignTheme\CompanyName.ProjectName.Blazor.Layout.AntDesignTheme.csproj", "{4448692C-8A80-47C4-A8BA-4005B6960EA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -423,6 +425,10 @@ Global
 		{7BC89F4B-3BF2-4D1A-B542-BA2DEC771F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BC89F4B-3BF2-4D1A-B542-BA2DEC771F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BC89F4B-3BF2-4D1A-B542-BA2DEC771F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4448692C-8A80-47C4-A8BA-4005B6960EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4448692C-8A80-47C4-A8BA-4005B6960EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4448692C-8A80-47C4-A8BA-4005B6960EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4448692C-8A80-47C4-A8BA-4005B6960EA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -506,6 +512,7 @@ Global
 		{FB1C29FF-5467-4CF0-995D-5B3F931AB135} = {8C1B8C6C-C518-4290-B070-622CCA6004DA}
 		{C9861622-B0CB-4747-82CC-16664648A499} = {9528B5B6-C087-4932-92EA-EE486E97AAB0}
 		{7BC89F4B-3BF2-4D1A-B542-BA2DEC771F17} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
+		{4448692C-8A80-47C4-A8BA-4005B6960EA4} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28315BFD-90E7-4E14-A2EA-F3D23AF4126F}
